@@ -1,0 +1,101 @@
+{
+  "affiliates": {
+    "columns": [
+      {
+        "key" : "nroLegajo",
+        "label" : "Legajo"
+      },
+      {
+        "key" : "name",
+        "label" : "Nombre"
+      },
+      {
+        "key" : "dni",
+        "label" : "DNI"
+      },
+      {
+        "key" : "birthday",
+        "label" : "Fecha nacimiento"
+      },
+      {
+        "key" : "office",
+        "label" : "Oficina"
+      },
+      {
+        "key" : "isRegister",
+        "label" : "Dado de alta"
+      }
+    ],
+    "rows": [
+      {
+        "nroLegajo": 1,
+        "name": "Juan Bonelli",
+        "dni": "45235143",
+        "birthday": "2003-11-19",
+        "office": "Linierss",
+        "isRegister": false
+      },
+      {
+        "nroLegajo": 2,
+        "name": "Juan Cruz Delgado",
+        "dni": "44610903",
+        "birthday": "2003-07-08",
+        "office": "Liniers",
+        "isRegister": true
+      },
+      {
+        "nroLegajo": 3,
+        "name": "Juan Cruz Bonelli",
+        "dni": "39002121",
+        "birthday": "2004-07-08",
+        "office": "Cuba",
+        "isRegister": true
+      },
+      {
+        "nroLegajo": 4,
+        "name": "Juan Delgado",
+        "dni": "21500391",
+        "birthday": "1999-03-06",
+        "office": "CABA",
+        "isRegister": false
+      }
+    ]
+  },
+
+  "registers": {
+    "columns": [
+      {
+        "key" : "id",
+        "label" : "nroAlta"
+      },
+      {
+        "key" : "date",
+        "label" : "Fecha"
+      },
+      {
+        "key" : "affiliate",
+        "label" : "Afiliado"
+      }
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "date": "2003-11-19",
+        "affiliate": "Juan Bonelli"
+       
+      },
+      {
+        "id": 2,
+        "date": "2003-11-19",
+        "affiliate": "Juan Delgado"
+       
+      },
+      {
+        "id": 3,
+        "date": "2003-11-19",
+        "affiliate": "Juan Bonelli"
+       
+      }
+    ]
+  }
+}
